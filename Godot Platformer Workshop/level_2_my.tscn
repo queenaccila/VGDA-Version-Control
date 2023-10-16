@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://dhm4qc5ot1vdt"]
+[gd_scene load_steps=3 format=3 uid="uid://dhm4qc5ot1vdt"]
+
+[ext_resource type="Texture2D" uid="uid://cchckyuw02pnt" path="res://assets/Fantasy Assets/Forest Tilemap/Background/CloudsBack.png" id="1_qg8lv"]
+[ext_resource type="Texture2D" uid="uid://duttot2df83a3" path="res://assets/Fantasy Assets/Forest Tilemap/Background/BGFront.png" id="2_cyir1"]
 
 [node name="Level2_My" type="Node2D"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+offset_right = 1074.0
+offset_bottom = 505.0
+texture = ExtResource("1_qg8lv")
+
+[node name="TextureRect" type="TextureRect" parent="TextureRect"]
+layout_mode = 0
+offset_right = 1123.0
+offset_bottom = 515.0
+texture = ExtResource("2_cyir1")

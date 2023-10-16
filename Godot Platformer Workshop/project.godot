@@ -21,6 +21,10 @@ window/size/viewport_width=1920
 window/size/viewport_height=1080
 window/stretch/scale=3.0
 
+[dotnet]
+
+project/assembly_name="Platformer Workshop"
+
 [editor]
 
 movie_writer/movie_file="C:/Users/rexer/Documents/GitHub/VGDA-Workshops/Godot Platformer Workshop/video/video.avi"
